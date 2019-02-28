@@ -6,7 +6,7 @@
  * Time: 9:28
  */
 
-function swap($a, $b)
+function swap(&$a, &$b)
 {
     $c = $a;
     $a = $b;
@@ -20,4 +20,4 @@ $b = 8;
 
 swap($a, $b);
 
-print_r($a . "\n" );
+print_r($b . "\n" );
