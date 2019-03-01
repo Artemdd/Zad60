@@ -23,4 +23,4 @@ function isPalindrome($word)
     return true;
 }
 
-var_dump(isPalindrome(''));
+var_dump(isPalindrome('dad'));

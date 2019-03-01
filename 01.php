@@ -29,4 +29,4 @@ function isPalindrome($word)
 
 
 
-var_dump(isPalindrome());
+var_dump(isPalindrome('rumur'));
